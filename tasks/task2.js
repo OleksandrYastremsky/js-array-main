@@ -1,4 +1,3 @@
-// 1. Повертає імена студентів з оцінкою більше 80
 function getTopScoringStudents(students) {
   const topStudents = [];
   for (let i = 0; i < students.length; i++) {
@@ -9,7 +8,6 @@ function getTopScoringStudents(students) {
   return topStudents;
 }
 
-// 2. Обчислює середній вік студентів
 function getAverageAge(students) {
   if (students.length === 0) return 0;
 
@@ -20,12 +18,10 @@ function getAverageAge(students) {
   return totalAge / students.length;
 }
 
-// 3. Додає нового студента до масиву
 function addStudent(students, student) {
   students.push(student);
 }
 
-// 4. Повертає новий масив без студента з певним ім'ям
 function removeStudentByName(students, name) {
   const newStudents = [];
   for (let i = 0; i < students.length; i++) {

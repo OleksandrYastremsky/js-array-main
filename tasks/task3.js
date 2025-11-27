@@ -4,7 +4,6 @@ function findByName(people, name) {
       return people[i];
     }
   }
-  // Якщо не знайдено – повертаємо null
   return null;
 }
 
